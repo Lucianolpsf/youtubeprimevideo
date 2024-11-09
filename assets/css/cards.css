@@ -1,0 +1,19 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5rem;
+}
+
+.cards > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cards h3, .cards p {
+    color: var(--escura);
+    text-align: center;
+}

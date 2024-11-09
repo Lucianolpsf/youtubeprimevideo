@@ -1,0 +1,58 @@
+@import url(./assets/css/header.css);
+@import url(./assets/css/hero.css);
+@import url(./assets/css/canais.css);
+@import url(./assets/css/loja.css);
+@import url(./assets/css/cards.css);
+@import url(./assets/css/footer.css);
+
+@font-face {
+    font-family: "amazon ember light";
+    src: url(./assets/fonts/AmazonEmber_Lt.woff);
+}
+
+@font-face {
+    font-family: "amazon ember bold";
+    src: url(./assets/fonts/AmazonEmber_Rg.woff);
+}
+
+:root{
+    --escura:#000000; 
+    --escuro-medio: #00050d;
+    --claro: #ffffff;
+    --azul-claro:#0f79af;
+    --cinza: #222222;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "amazon ember light";
+}
+
+h1, h2, h3 {
+    font-family: "amazon ember bold";
+    font-size: 4.64rem;
+    color: var(--claro);
+}
+
+a , p{
+    font-size: 1.76rem;
+    color: var(--claro);
+    text-decoration: none;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+
+    width: 28rem;
+    height: 5.2rem;
+    background-color: var(--azul-claro);
+    padding: 1rem;
+    border-radius: .2rem;
+}

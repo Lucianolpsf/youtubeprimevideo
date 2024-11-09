@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.footer > div {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: var(--azul-claro);
+}

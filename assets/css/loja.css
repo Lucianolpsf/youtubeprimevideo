@@ -1,0 +1,20 @@
+.loja-prime {
+    background-image: url(../img/banners/MLP_BG_left_1440x675.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    display: flex;
+    justify-content: end;
+}
+
+.loja-prime >article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+
+    height: 67rem;
+    width: 60%;
+    padding: 5rem 10%;
+    background-image: linear-gradient(to left, var(--escura) 90%, transparent);
+}
