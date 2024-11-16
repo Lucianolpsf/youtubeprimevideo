@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(../img/banners/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-image: url(../img/banners/BRND_MTH24_PVMagnetLeft_1440x675_POST_Final_pt-BR_GSS00015910.jpg);
     background-repeat: no-repeat;
     background-position: center right;
 }
@@ -7,13 +7,22 @@
 .hero >article{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 1.5rem;
 
     height: 67rem;
     width: 60%;
-    padding: 5rem 5%;
+    padding: 7.2rem;
     background-image: linear-gradient(to right, var(--escura) 90%, transparent);
+}
+
+.hero p {
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+
+.hero > article > p:nth-last-child(1) {
+    font-size: 1.4rem;
 }
 
 .hero .area-botoes{
@@ -27,7 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 25rem;
+    width: 30.5rem;
     gap: 1rem;
 }
 

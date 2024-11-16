@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 5rem;
+    padding: 7.2rem;
+    background-color: var(--escuro-medio);
+}
+
+.cards h3{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
 }
 
 .cards > div {
@@ -11,9 +17,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 44rem;
 }
 
 .cards h3, .cards p {
-    color: var(--escura);
-    text-align: center;
+    color: var(--claro);
+    text-align: justify;
 }

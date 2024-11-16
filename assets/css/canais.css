@@ -1,7 +1,8 @@
 .canais{
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem 0rem 5%;
+    padding: 7.2rem;
+    background-color: var(--escuro-medio);
 }
 
 .canais article{
@@ -17,7 +18,7 @@
 }
 
 .canais > article > h2 , .canais > article > p{
-    color: var(--escura);
+    color: var(--claro);
 }
 
 .canais > div{
@@ -30,10 +31,11 @@
 
 .imagens > img{
     width: 25.5rem;
+    border-radius: 1rem;
     transition: .2s;
 }
 
 .imagens img:hover{
-box-shadow: 0rem 0rem 1rem var(--escura);
+box-shadow: 0rem 0rem 1rem gray;
 }
 

@@ -1,10 +1,11 @@
 header {
     background-color: var(--escuro-medio);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0rem 7.2rem;
     gap: 2rem;
+    height: 6.6rem;
 }
 
 header > nav {
@@ -13,12 +14,66 @@ header > nav {
     gap: 1rem;
 }
 
-header > nav > img {
-    height: 3rem;
+header > nav > .logo-cliente{
+    width: 4rem;
+    padding: .3rem;
+    border-radius: 50%;
+}
+
+header > nav > .logo-cliente:hover{
+    background-color: var(--claro);
+}
+
+.logo {
+    height: 1.85rem;
+    margin-right: 3rem;
 }
 
 header > nav > a {
     color: var(--claro);
     padding: 1rem;
     text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+    border-radius: .5rem;
+}
+
+header > nav > a:hover{
+    color: var(--escura);
+    background-color: var(--claro);
+}
+
+.material-symbols-outlined{
+    color: var(--claro);
+}
+
+.menu-bolinhas{
+    padding: .5rem;
+    color: var(--claro);
+    transition: .3s;
+    border-radius: 50%;
+}
+
+.menu-bolinhas:hover{
+    color: var(--escura);
+    background-color: var(--claro);
+
+}
+
+.btn-prime-menu{
+    background-color: var(--azul-claro);
+    height: 4.2rem;
+    width: 14rem;
+    padding: 0 1.4rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-prime-menu:hover{
+    background-color: #17a1e6;
+    box-shadow: 0 0 2rem #17a1e6;
+    color: var(--claro);
 }
