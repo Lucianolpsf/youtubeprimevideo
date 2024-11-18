@@ -9,6 +9,7 @@
 .cards h3{
     font-size: 3.2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .cards > div {
@@ -22,5 +23,8 @@
 
 .cards h3, .cards p {
     color: var(--claro);
+}
+
+.cards p{
     text-align: justify;
 }
